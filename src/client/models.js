@@ -5,6 +5,6 @@ export const items = PropTypes.arrayOf(
         id: PropTypes.number,
         name: PropTypes.string,
         dietaries: PropTypes.arrayOf(PropTypes.string),
-        selected: PropTypes.bool,
+        isSelected: PropTypes.bool,
     })
 )

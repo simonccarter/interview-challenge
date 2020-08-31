@@ -14,7 +14,7 @@ const MenuPreview = ({ selectedItems, onItemRemoval }) => (
                     key={item.id}
                     {...item}
                     isRemovable
-                    onRemove={onItemRemoval(item.id)}
+                    onRemove={() => onItemRemoval(item.id)}
                 />
             ))}
         </ul>

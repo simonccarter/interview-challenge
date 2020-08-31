@@ -22,7 +22,7 @@ const Menu = ({ filteredItems, filter, setFilter, onSelectionToggle }) => (
           {...item}
           key={item.id}
           isSelectable
-          onSelect={onSelectionToggle(item.id)}
+          onSelect={() => onSelectionToggle(item.id)}
         />
       ))}
     </ul>

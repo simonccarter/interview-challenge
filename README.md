@@ -1,3 +1,7 @@
+# Additional work
+
+Switched to Redux to demonstrate basic redux store testing using an example reducer, and added additional behavior testing example for item.test.js.
+
 # Candidate notes at 2 hour mark
 
 ### State
